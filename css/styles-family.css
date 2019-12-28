@@ -1,0 +1,160 @@
+body{
+	font-family: "Montserrat"
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: "Montserrat";
+}
+h2{
+	font-weight: 400;
+	font-size:3.5rem;
+	line-height: 1.5;
+}
+h3{
+	font-weight: 900;
+
+}
+p{
+	font-family: arial;
+	color: #758184;
+}
+.big-heading{
+	font-family:"Montserrat";
+	font-weight: 900;
+	font-size: 3rem;
+	line-height: 1.5;
+	margin-right: 80px;
+}
+.bobcat {
+    font-weight: bold;
+    color: green;
+}
+.bobcat:hover{
+    text-color: white;
+}
+#title{
+	background-color:#FF4C68;
+	color: #fff;
+}
+.container-fluid{
+	padding: 3% 18% 7%;
+}
+/*Navigation bar*/
+.navbar{
+	padding:0 0 4.5rem;
+}
+.navbar-brand{
+	font-family: ubuntu;
+	font-size: 2.5rem;
+}
+.navbar-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-size: 1.2rem;
+	font-family: arial;
+}
+.download-button{
+	margin: 5% 3% 5% 0;
+}
+/*title image*/
+.title-image1{
+	width: 120%;
+	height: 80%;
+	transform: rotate(20deg);
+	position: absolute;
+	right: 30%;
+}
+.title-image2{
+	width: 120%;
+	height: 80%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+.title-image3{
+	width: 120%;
+	height: 80%;
+	transform: rotate(30deg);
+	position: absolute;
+	right: 30%;
+}
+@media(max-width:1593px ){
+	.title-image1, .title-image2, .title-image3{
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+@media (max-width:1129px ){
+	#title{
+		text-align: center;
+
+	}
+	.title-image{
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+#features{
+	margin: 0;
+	padding: 100px;
+	background-color:#FFF ;
+	position: relative;
+	z-index: 1
+}
+.feature-box{
+	text-align: center;
+	padding: 0 8% !important;
+}
+.feature-icon{	
+	color:#ef8172; 
+	margin: 1rem;
+}
+
+.feature-icon:hover{
+	color: #FF4C68;
+}
+#out-photos{
+	text-align: center;
+	background-color: #EF8172;
+	color: #FFF;
+}
+.slide-img{
+	width: 600px;
+	height: 600px;
+	border-radius: 100%;
+	margin: 20px;
+}
+.carousel-item{
+	padding:8% 15%;
+}
+#indoor-head{
+	text-align: center;
+
+}
+#indoor{
+	padding: 10%;
+	text-align: center;
+}
+.indoor-column{
+	padding: 3% 2%;
+}
+.card-img{
+	width: 400px;
+	height:400px;
+}
+#cta{
+	background-color: #FF4C68;
+	padding: 7% 10%;
+	text-align: center;
+	color: #FFF;
+}
+#footer{
+	text-align: center;
+	padding: 2% 15%;
+}
+.social-icon{
+	margin: 10px;
+	padding:10px;
+}
