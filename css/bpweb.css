@@ -105,16 +105,6 @@ nav a:hover::before{
 	text-decoration:underline;
 	font-weight: normal;
 }
-.bottomcloud{
-	position: absolute;
-	left: 18.75rem;
-	bottom: 28rem;
-}
-.topcloud{
-	position: absolute;
-	right:18.75rem;
-	top:25rem;
-}
 .mypic{
 	width:200px;
 	height: 200px;
